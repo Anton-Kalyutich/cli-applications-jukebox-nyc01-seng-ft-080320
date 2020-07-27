@@ -10,6 +10,9 @@ def play
 end
 
 def list(songs)
+  i = 0
+  songs.each do |song|
+    puts 
 end
 
 def exit_jukebox
