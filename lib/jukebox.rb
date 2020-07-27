@@ -17,7 +17,7 @@ def play(songs)
       puts "Playing #{song}"
     end
   end
-  puts 
+  puts message
 end
 
 def list(songs)
