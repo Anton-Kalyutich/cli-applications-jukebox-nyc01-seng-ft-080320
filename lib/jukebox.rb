@@ -31,6 +31,6 @@ end
 def run(songs)
   puts "Please enter a command:"
   user_response = gets.strip
-  until user_response
+  until user_response == 'exit'
   
 end
