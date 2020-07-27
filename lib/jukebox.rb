@@ -7,7 +7,7 @@ def help
 end
 
 def play(songs)
-  message = 
+  message = "Invalid input, please try again"
   puts "Please enter a song name or number:"
   user_response = gets.strip
   songs.each_with_index do |song, index|
@@ -17,7 +17,7 @@ def play(songs)
       puts "Playing #{song}"
     end
   end
-  puts "Invalid input, please try again"
+  puts 
 end
 
 def list(songs)
