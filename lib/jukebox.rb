@@ -29,5 +29,6 @@ def exit_jukebox
 end
 
 def run(songs)
+  puts "Please enter a command:"
   
 end
