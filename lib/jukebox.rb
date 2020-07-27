@@ -10,7 +10,7 @@ def play
 end
 
 def list(songs)
-  i = 0
+  songs.each_with_index do |song, index|
   while i < songs.length do
     puts "#{i + 1}. #{songs[i]}"
     i += 1
