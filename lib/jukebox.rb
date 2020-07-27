@@ -9,7 +9,7 @@ end
 def play(songs)
   puts "Please enter a song name or number:"
   user_response = gets.strip
-  if user_response 
+  if user_response.to_i
     puts "Playing #{}"
   else
     puts "Invalid input, please try again"
