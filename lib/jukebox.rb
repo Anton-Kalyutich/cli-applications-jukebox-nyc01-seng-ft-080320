@@ -11,7 +11,7 @@ def play(songs)
   user_response = gets.strip
   songs.each_with_index do |song, index|
     if user_response.to_i == index + 1
-      puts "Playing #{songs[i]}"
+      puts "Playing #{songs[index + 1]}"
       
     else
       puts "Invalid input, please try again"
