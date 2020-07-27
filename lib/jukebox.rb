@@ -11,7 +11,7 @@ end
 
 def list(songs)
   i = 0
-  
+  while i < songs.length
   songs.each do |song|
     puts 
 end
