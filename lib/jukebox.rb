@@ -10,7 +10,7 @@ def play(songs)
   puts "Please enter a song name or number:"
   user_response = gets.strip
   songs.each_with_index do |song, index|
-    if user_response.to_i == index + 1 || 
+    if user_response.to_i == index + 1
       puts "Playing #{song}"
     end
   end
