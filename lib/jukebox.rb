@@ -13,6 +13,7 @@ def play(songs)
     if user_response.to_i == index + 1
       puts "Playing #{songs[index + 1]}"
     elsif user_response == song
+      puts "Playing #{song}"
       
     else
       puts "Invalid input, please try again"
