@@ -7,6 +7,7 @@ def help
 end
 
 def play(songs)
+  message = 
   puts "Please enter a song name or number:"
   user_response = gets.strip
   songs.each_with_index do |song, index|
